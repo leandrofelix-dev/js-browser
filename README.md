@@ -1,1 +1,2 @@
-# js-browser
+# MyOwnBrowser
+Browser criado usando HTML e CSS

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="browrser.css" />
+    <title>Meu Browser</title>
+</head>
+
+<body>
+
+    <div class="browser" id="window">
+        <!-- Barra de Ferramentas -->
+        <div class="row">
+            <div class="column left">
+                <span class="dot red" id="close"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+            </div>
+            <div class="column middle" id="url">
+                <input type="text" id="url_text" value="https://dev-links-blond.vercel.app/">
+            </div>
+            <div class="column right">
+                <div style="float:right">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Viewport do navegador -->
+        <div class="container-frameTab">
+            <iframe name="frameTab" class="responsive-iframe" src="https://dev-links-blond.vercel.app/"></iframe>
+        </div>
+    </div>
+
+    <div id="open">
+        <img src="./finder.png" alt="">
+        <img src="./start.png" alt="">
+        <img src="./safari-icon.png" alt="" id="browser-icon">
+        <img src="./chrome-icon.png" alt="">
+        <img src="./vscode.png" alt="">
+        <img src="./atom.png" alt="">
+        <img src="./clean-my-mac.png" alt="">
+        <img src="./notion.png" alt="">
+    </div>
+    <script src="./mais.js"></script>
+</body>
+
+</html>
